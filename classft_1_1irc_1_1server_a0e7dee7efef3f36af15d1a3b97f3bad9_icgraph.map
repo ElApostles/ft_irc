@@ -1,4 +1,6 @@
 <map id="ft::irc::server::find_channel" name="ft::irc::server::find_channel">
-<area shape="rect" id="node1" title=" " alt="" coords="219,5,355,47"/>
-<area shape="rect" id="node2" href="$classft_1_1irc_1_1user.html#af2aa8fcafc015de38938ccccfed4b1c9" title=" " alt="" coords="5,5,171,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="239,71,375,112"/>
+<area shape="rect" id="node2" href="$classft_1_1irc_1_1user.html#af2aa8fcafc015de38938ccccfed4b1c9" title=" " alt="" coords="15,5,181,47"/>
+<area shape="rect" id="node3" href="$classft_1_1irc_1_1processor__part.html#a4075107cb360cd04c0a11a9904104ad0" title=" " alt="" coords="35,71,161,112"/>
+<area shape="rect" id="node4" href="$classft_1_1irc_1_1processor__message__base.html#ab3fba6f27483543b9c7a559fd2e1402b" title=" " alt="" coords="5,136,191,177"/>
 </map>

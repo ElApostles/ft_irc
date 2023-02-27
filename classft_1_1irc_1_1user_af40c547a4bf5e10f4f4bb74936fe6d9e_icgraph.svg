@@ -64,19 +64,19 @@
 <path fill="none" stroke="midnightblue" d="M330.91,-72.53C322.26,-71.37 313.38,-70.18 304.67,-69.02"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="330.55,-76.01 340.93,-73.87 331.48,-69.07 330.55,-76.01"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node">
-<title>Node7</title>
-<g id="a_node7"><a xlink:href="structft_1_1irc_1_1user_1_1pred__equals__nick.html#aa4bfdd8756482385798ed7fd8197f1e1" target="_top" xlink:title=" ">
+<!-- Node8 -->
+<g id="node8" class="node">
+<title>Node8</title>
+<g id="a_node8"><a xlink:href="structft_1_1irc_1_1user_1_1pred__equals__nick.html#aa4bfdd8756482385798ed7fd8197f1e1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="165.5,-0.5 165.5,-30.5 299.5,-30.5 299.5,-0.5 165.5,-0.5"/>
 <text text-anchor="start" x="173.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">ft::irc::user::pred</text>
 <text text-anchor="middle" x="232.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_equals_nick::operator()</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge6" class="edge">
-<title>Node1&#45;&gt;Node7</title>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge7" class="edge">
+<title>Node1&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M368.07,-67.59C349.96,-59.35 326.33,-48.91 305,-40.5 296.44,-37.12 287.21,-33.72 278.33,-30.56"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="366.96,-70.93 377.51,-71.91 369.88,-64.56 366.96,-70.93"/>
 </g>
@@ -100,17 +100,33 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="classft_1_1irc_1_1user.html#af2aa8fcafc015de38938ccccfed4b1c9" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-44.5 0,-74.5 124,-74.5 124,-44.5 0,-44.5"/>
-<text text-anchor="start" x="8" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">ft::irc::user::deregister</text>
-<text text-anchor="middle" x="62" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">_from_server</text>
+<polygon fill="white" stroke="black" points="0,-64.5 0,-94.5 124,-94.5 124,-64.5 0,-64.5"/>
+<text text-anchor="start" x="8" y="-82.5" font-family="Helvetica,sans-Serif" font-size="10.00">ft::irc::user::deregister</text>
+<text text-anchor="middle" x="62" y="-71.5" font-family="Helvetica,sans-Serif" font-size="10.00">_from_server</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M149.53,-59.5C140.97,-59.5 132.37,-59.5 124.1,-59.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="149.55,-63 159.55,-59.5 149.55,-56 149.55,-63"/>
+<path fill="none" stroke="midnightblue" d="M149.53,-69.23C140.97,-70.25 132.37,-71.27 124.1,-72.25"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="150.03,-72.69 159.55,-68.04 149.21,-65.74 150.03,-72.69"/>
+</g>
+<!-- Node7 -->
+<g id="node7" class="node">
+<title>Node7</title>
+<g id="a_node7"><a xlink:href="classft_1_1irc_1_1processor__part.html#a4075107cb360cd04c0a11a9904104ad0" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="14.5,-15.5 14.5,-45.5 109.5,-45.5 109.5,-15.5 14.5,-15.5"/>
+<text text-anchor="start" x="22.5" y="-33.5" font-family="Helvetica,sans-Serif" font-size="10.00">ft::irc::processor</text>
+<text text-anchor="middle" x="62" y="-22.5" font-family="Helvetica,sans-Serif" font-size="10.00">_part::execute</text>
+</a>
+</g>
+</g>
+<!-- Node5&#45;&gt;Node7 -->
+<g id="edge6" class="edge">
+<title>Node5&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M165.87,-48.21C147.07,-44.97 126.97,-41.51 109.57,-38.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="165.41,-51.68 175.86,-49.92 166.6,-44.78 165.41,-51.68"/>
 </g>
 </g>
 </svg>
