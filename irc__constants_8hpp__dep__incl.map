@@ -1,29 +1,28 @@
 <map id="irc_constants.hpp" name="irc_constants.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="1236,5,1372,32"/>
-<area shape="rect" id="node2" href="$bot__handler_8hpp.html" title=" " alt="" coords="561,229,687,256"/>
-<area shape="rect" id="node3" href="$bot__main_8cpp.html" title=" " alt="" coords="281,304,391,331"/>
-<area shape="rect" id="node4" href="$channel_8cpp.html" title=" " alt="" coords="1690,304,1790,331"/>
-<area shape="rect" id="node5" href="$channel_8hpp.html" title=" " alt="" coords="1955,229,2056,256"/>
-<area shape="rect" id="node6" href="$processor__channel_8hpp.html" title=" " alt="" coords="2261,304,2432,331"/>
-<area shape="rect" id="node7" href="$processor_8cpp.html" title=" " alt="" coords="2443,379,2554,405"/>
-<area shape="rect" id="node8" href="$processor__send__message_8hpp.html" title=" " alt="" coords="1981,304,2198,331"/>
-<area shape="rect" id="node9" href="$server_8cpp.html" title=" " alt="" coords="3095,304,3185,331"/>
-<area shape="rect" id="node10" href="$user_8cpp.html" title=" " alt="" coords="1335,304,1411,331"/>
-<area shape="rect" id="node11" href="$client__handler_8hpp.html" title=" " alt="" coords="1587,229,1728,256"/>
-<area shape="rect" id="node12" href="$server__handler_8hpp.html" title=" " alt="" coords="652,304,799,331"/>
-<area shape="rect" id="node13" href="$main_8cpp.html" title=" " alt="" coords="684,379,767,405"/>
-<area shape="rect" id="node14" href="$message_8cpp.html" title=" " alt="" coords="1297,155,1405,181"/>
-<area shape="rect" id="node15" href="$message_8hpp.html" title=" " alt="" coords="1489,80,1599,107"/>
-<area shape="rect" id="node16" href="$message__decoder_8hpp.html" title=" " alt="" coords="345,155,511,181"/>
-<area shape="rect" id="node17" href="$message__encoder_8hpp.html" title=" " alt="" coords="787,155,954,181"/>
-<area shape="rect" id="node18" href="$processor_8hpp.html" title=" " alt="" coords="2308,155,2420,181"/>
-<area shape="rect" id="node19" href="$processor__misc_8hpp.html" title=" " alt="" coords="2707,229,2858,256"/>
-<area shape="rect" id="node20" href="$processor__register_8hpp.html" title=" " alt="" coords="2882,229,3051,256"/>
-<area shape="rect" id="node21" href="$processor__user_8hpp.html" title=" " alt="" coords="2536,229,2683,256"/>
-<area shape="rect" id="node22" href="$reply_8hpp.html" title=" " alt="" coords="1851,155,1933,181"/>
-<area shape="rect" id="node23" href="$string__line__encoder_8hpp.html" title=" " alt="" coords="587,155,763,181"/>
-<area shape="rect" id="node24" href="$server_8hpp.html" title=" " alt="" coords="1080,155,1171,181"/>
-<area shape="rect" id="node25" href="$string__line__decoder_8hpp.html" title=" " alt="" coords="144,155,320,181"/>
-<area shape="rect" id="node26" href="$string__utils_8hpp.html" title=" " alt="" coords="3016,155,3139,181"/>
-<area shape="rect" id="node27" href="$user_8hpp.html" title=" " alt="" coords="2232,80,2309,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1495,5,1631,32"/>
+<area shape="rect" id="node2" href="$bot_8cpp.html" title=" " alt="" coords="2243,229,2314,256"/>
+<area shape="rect" id="node3" href="$channel_8cpp.html" title=" " alt="" coords="670,304,770,331"/>
+<area shape="rect" id="node4" href="$channel_8hpp.html" title=" " alt="" coords="752,229,853,256"/>
+<area shape="rect" id="node5" href="$processor__channel_8hpp.html" title=" " alt="" coords="1008,304,1179,331"/>
+<area shape="rect" id="node6" href="$processor_8cpp.html" title=" " alt="" coords="1587,379,1698,405"/>
+<area shape="rect" id="node7" href="$processor__send__message_8hpp.html" title=" " alt="" coords="1387,304,1605,331"/>
+<area shape="rect" id="node8" href="$server_8cpp.html" title=" " alt="" coords="382,304,471,331"/>
+<area shape="rect" id="node9" href="$user_8cpp.html" title=" " alt="" coords="570,304,646,331"/>
+<area shape="rect" id="node10" href="$client__handler_8hpp.html" title=" " alt="" coords="2135,304,2276,331"/>
+<area shape="rect" id="node11" href="$server__handler_8hpp.html" title=" " alt="" coords="2512,379,2659,405"/>
+<area shape="rect" id="node12" href="$main_8cpp.html" title=" " alt="" coords="1185,453,1268,480"/>
+<area shape="rect" id="node13" href="$message_8cpp.html" title=" " alt="" coords="1127,155,1235,181"/>
+<area shape="rect" id="node14" href="$message_8hpp.html" title=" " alt="" coords="1637,80,1747,107"/>
+<area shape="rect" id="node15" href="$message__decoder_8hpp.html" title=" " alt="" coords="2535,155,2702,181"/>
+<area shape="rect" id="node16" href="$message__encoder_8hpp.html" title=" " alt="" coords="2726,155,2893,181"/>
+<area shape="rect" id="node17" href="$processor_8hpp.html" title=" " alt="" coords="1803,229,1915,256"/>
+<area shape="rect" id="node18" href="$processor__misc_8hpp.html" title=" " alt="" coords="1927,304,2078,331"/>
+<area shape="rect" id="node19" href="$processor__register_8hpp.html" title=" " alt="" coords="1681,304,1850,331"/>
+<area shape="rect" id="node20" href="$reply_8cpp.html" title=" " alt="" coords="2389,229,2469,256"/>
+<area shape="rect" id="node21" href="$reply_8hpp.html" title=" " alt="" coords="1522,155,1603,181"/>
+<area shape="rect" id="node22" href="$server_8hpp.html" title=" " alt="" coords="1181,229,1272,256"/>
+<area shape="rect" id="node23" href="$string__line__encoder_8hpp.html" title=" " alt="" coords="2335,155,2511,181"/>
+<area shape="rect" id="node24" href="$string__line__decoder_8hpp.html" title=" " alt="" coords="2033,155,2209,181"/>
+<area shape="rect" id="node25" href="$string__utils_8hpp.html" title=" " alt="" coords="929,155,1052,181"/>
+<area shape="rect" id="node26" href="$user_8hpp.html" title=" " alt="" coords="1369,155,1447,181"/>
 </map>

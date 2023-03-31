@@ -27,10 +27,12 @@ var namespaceft_1_1irc =
     [ "processor_list", "classft_1_1irc_1_1processor__list.html", "classft_1_1irc_1_1processor__list" ],
     [ "processor_invite", "classft_1_1irc_1_1processor__invite.html", "classft_1_1irc_1_1processor__invite" ],
     [ "processor_kick", "classft_1_1irc_1_1processor__kick.html", "classft_1_1irc_1_1processor__kick" ],
-    [ "processor_kill", "classft_1_1irc_1_1processor__kill.html", "classft_1_1irc_1_1processor__kill" ],
     [ "processor_ping", "classft_1_1irc_1_1processor__ping.html", "classft_1_1irc_1_1processor__ping" ],
-    [ "processor_pong", "classft_1_1irc_1_1processor__pong.html", "classft_1_1irc_1_1processor__pong" ],
-    [ "processor_error", "classft_1_1irc_1_1processor__error.html", "classft_1_1irc_1_1processor__error" ],
+    [ "processor_kill", "classft_1_1irc_1_1processor__kill.html", "classft_1_1irc_1_1processor__kill" ],
+    [ "processor_away", "classft_1_1irc_1_1processor__away.html", "classft_1_1irc_1_1processor__away" ],
+    [ "processor_cap", "classft_1_1irc_1_1processor__cap.html", "classft_1_1irc_1_1processor__cap" ],
+    [ "processor_who", "classft_1_1irc_1_1processor__who.html", "classft_1_1irc_1_1processor__who" ],
+    [ "processor_whois", "classft_1_1irc_1_1processor__whois.html", "classft_1_1irc_1_1processor__whois" ],
     [ "processor_pass", "classft_1_1irc_1_1processor__pass.html", "classft_1_1irc_1_1processor__pass" ],
     [ "processor_nick", "classft_1_1irc_1_1processor__nick.html", "classft_1_1irc_1_1processor__nick" ],
     [ "processor_user", "classft_1_1irc_1_1processor__user.html", "classft_1_1irc_1_1processor__user" ],
@@ -39,10 +41,8 @@ var namespaceft_1_1irc =
     [ "processor_message_base", "classft_1_1irc_1_1processor__message__base.html", "classft_1_1irc_1_1processor__message__base" ],
     [ "processor_privmsg", "classft_1_1irc_1_1processor__privmsg.html", "classft_1_1irc_1_1processor__privmsg" ],
     [ "processor_notice", "classft_1_1irc_1_1processor__notice.html", "classft_1_1irc_1_1processor__notice" ],
-    [ "processor_who", "classft_1_1irc_1_1processor__who.html", "classft_1_1irc_1_1processor__who" ],
-    [ "processor_whois", "classft_1_1irc_1_1processor__whois.html", "classft_1_1irc_1_1processor__whois" ],
-    [ "processor_whowas", "classft_1_1irc_1_1processor__whowas.html", "classft_1_1irc_1_1processor__whowas" ],
     [ "make_reply_base", "structft_1_1irc_1_1make__reply__base.html", "structft_1_1irc_1_1make__reply__base" ],
+    [ "make_welcome", "structft_1_1irc_1_1make__welcome.html", "structft_1_1irc_1_1make__welcome" ],
     [ "make_error", "structft_1_1irc_1_1make__error.html", "structft_1_1irc_1_1make__error" ],
     [ "person_info", "structft_1_1irc_1_1person__info.html", "structft_1_1irc_1_1person__info" ],
     [ "channel_info", "structft_1_1irc_1_1channel__info.html", "structft_1_1irc_1_1channel__info" ],
@@ -54,7 +54,9 @@ var namespaceft_1_1irc =
     [ "string_line_encoder", "classft_1_1irc_1_1string__line__encoder.html", "classft_1_1irc_1_1string__line__encoder" ],
     [ "string_utils", "structft_1_1irc_1_1string__utils.html", "structft_1_1irc_1_1string__utils" ],
     [ "user", "classft_1_1irc_1_1user.html", "classft_1_1irc_1_1user" ],
-    [ "reply_numerics", "namespaceft_1_1irc.html#a96daa8772aa99a894c6aa1cfcac23931", null ],
+    [ "reply_numerics", "namespaceft_1_1irc.html#a96daa8772aa99a894c6aa1cfcac23931", [
+      [ "REPLY_NUMERIC_END_DUMMY", "namespaceft_1_1irc.html#a96daa8772aa99a894c6aa1cfcac23931a8a6d4d0bf120cea3fffeda17c2e10dc3", null ]
+    ] ],
     [ "_make_client", "namespaceft_1_1irc.html#a9036d887eb28cf0fe185eea0a70d1844", null ],
     [ "_make_server", "namespaceft_1_1irc.html#aa1775a5000d1e48b0418ea5a01f71b87", null ]
 ];

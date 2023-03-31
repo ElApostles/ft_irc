@@ -1,6 +1,6 @@
 var dir_218aa11be66f727e8701f2757c75b0f5 =
 [
-    [ "bootstrap.cpp", "bootstrap_8cpp.html", null ],
+    [ "bootstrap.cpp", "bootstrap_8cpp.html", "bootstrap_8cpp" ],
     [ "bootstrap.hpp", "bootstrap_8hpp.html", [
       [ "bootstrap", "classft_1_1serv_1_1bootstrap.html", "classft_1_1serv_1_1bootstrap" ]
     ] ],
@@ -39,6 +39,10 @@ var dir_218aa11be66f727e8701f2757c75b0f5 =
     [ "event_worker_group.cpp", "event__worker__group_8cpp.html", "event__worker__group_8cpp" ],
     [ "event_worker_group.hpp", "event__worker__group_8hpp.html", [
       [ "event_worker_group", "classft_1_1serv_1_1event__worker__group.html", "classft_1_1serv_1_1event__worker__group" ]
+    ] ],
+    [ "file_channel.cpp", "file__channel_8cpp.html", null ],
+    [ "file_channel.hpp", "file__channel_8hpp.html", [
+      [ "file_channel", "classft_1_1serv_1_1file__channel.html", "classft_1_1serv_1_1file__channel" ]
     ] ],
     [ "libserv.hpp", "libserv_8hpp.html", null ],
     [ "logger.hpp", "logger_8hpp.html", "logger_8hpp" ],

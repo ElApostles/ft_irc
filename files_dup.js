@@ -1,24 +1,16 @@
 var files_dup =
 [
     [ "includes", "dir_09e761304027c904456130627fd4dcf5.html", "dir_09e761304027c904456130627fd4dcf5" ],
-    [ "bot.cpp", "bot_8cpp.html", null ],
-    [ "bot.hpp", "bot_8hpp.html", [
-      [ "bot", "classft_1_1irc_1_1bot.html", "classft_1_1irc_1_1bot" ]
-    ] ],
-    [ "bot_handler.hpp", "bot__handler_8hpp.html", [
-      [ "bot_handler", "classft_1_1irc_1_1bot__handler.html", "classft_1_1irc_1_1bot__handler" ]
-    ] ],
-    [ "bot_main.cpp", "bot__main_8cpp.html", "bot__main_8cpp" ],
+    [ "bot.cpp", "bot_8cpp.html", "bot_8cpp" ],
+    [ "bot_parse_json.py", "bot__parse__json_8py.html", "bot__parse__json_8py" ],
     [ "channel.cpp", "channel_8cpp.html", null ],
     [ "channel.hpp", "channel_8hpp.html", [
       [ "channel", "classft_1_1irc_1_1channel.html", "classft_1_1irc_1_1channel" ],
-      [ "member", "structft_1_1irc_1_1channel_1_1member.html", "structft_1_1irc_1_1channel_1_1member" ]
+      [ "member", "structft_1_1irc_1_1channel_1_1member.html", "structft_1_1irc_1_1channel_1_1member" ],
+      [ "ban_info", "structft_1_1irc_1_1channel_1_1ban__info.html", "structft_1_1irc_1_1channel_1_1ban__info" ]
     ] ],
     [ "client_handler.hpp", "client__handler_8hpp.html", [
       [ "client_handler", "classft_1_1irc_1_1client__handler.html", "classft_1_1irc_1_1client__handler" ]
-    ] ],
-    [ "debug.hpp", "debug_8hpp.html", [
-      [ "byte_buffer_dump_logger_handler", "classbyte__buffer__dump__logger__handler.html", "classbyte__buffer__dump__logger__handler" ]
     ] ],
     [ "irc_constants.hpp", "irc__constants_8hpp.html", "irc__constants_8hpp" ],
     [ "main.cpp", "main_8cpp.html", "main_8cpp" ],
@@ -48,10 +40,12 @@ var files_dup =
       [ "processor_kick", "classft_1_1irc_1_1processor__kick.html", "classft_1_1irc_1_1processor__kick" ]
     ] ],
     [ "processor_misc.hpp", "processor__misc_8hpp.html", [
-      [ "processor_kill", "classft_1_1irc_1_1processor__kill.html", "classft_1_1irc_1_1processor__kill" ],
       [ "processor_ping", "classft_1_1irc_1_1processor__ping.html", "classft_1_1irc_1_1processor__ping" ],
-      [ "processor_pong", "classft_1_1irc_1_1processor__pong.html", "classft_1_1irc_1_1processor__pong" ],
-      [ "processor_error", "classft_1_1irc_1_1processor__error.html", "classft_1_1irc_1_1processor__error" ]
+      [ "processor_kill", "classft_1_1irc_1_1processor__kill.html", "classft_1_1irc_1_1processor__kill" ],
+      [ "processor_away", "classft_1_1irc_1_1processor__away.html", "classft_1_1irc_1_1processor__away" ],
+      [ "processor_cap", "classft_1_1irc_1_1processor__cap.html", "classft_1_1irc_1_1processor__cap" ],
+      [ "processor_who", "classft_1_1irc_1_1processor__who.html", "classft_1_1irc_1_1processor__who" ],
+      [ "processor_whois", "classft_1_1irc_1_1processor__whois.html", "classft_1_1irc_1_1processor__whois" ]
     ] ],
     [ "processor_register.hpp", "processor__register_8hpp.html", [
       [ "processor_pass", "classft_1_1irc_1_1processor__pass.html", "classft_1_1irc_1_1processor__pass" ],
@@ -65,13 +59,9 @@ var files_dup =
       [ "processor_privmsg", "classft_1_1irc_1_1processor__privmsg.html", "classft_1_1irc_1_1processor__privmsg" ],
       [ "processor_notice", "classft_1_1irc_1_1processor__notice.html", "classft_1_1irc_1_1processor__notice" ]
     ] ],
-    [ "processor_user.hpp", "processor__user_8hpp.html", [
-      [ "processor_who", "classft_1_1irc_1_1processor__who.html", "classft_1_1irc_1_1processor__who" ],
-      [ "processor_whois", "classft_1_1irc_1_1processor__whois.html", "classft_1_1irc_1_1processor__whois" ],
-      [ "processor_whowas", "classft_1_1irc_1_1processor__whowas.html", "classft_1_1irc_1_1processor__whowas" ]
-    ] ],
+    [ "reply.cpp", "reply_8cpp.html", null ],
     [ "reply.hpp", "reply_8hpp.html", "reply_8hpp" ],
-    [ "server.cpp", "server_8cpp.html", null ],
+    [ "server.cpp", "server_8cpp.html", "server_8cpp" ],
     [ "server.hpp", "server_8hpp.html", [
       [ "server", "classft_1_1irc_1_1server.html", "classft_1_1irc_1_1server" ]
     ] ],

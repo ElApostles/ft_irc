@@ -116,6 +116,7 @@ $(document).ready(function(){initNavTree('namespaceft_1_1serv.html',''); initRes
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -148,6 +149,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1serv_1_1event__worker__group.html">event_worker_group</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1serv_1_1file__channel.html">file_channel</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structft_1_1serv_1_1logger.html">logger</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1serv_1_1logic__adapter.html">logic_adapter</a></td></tr>
@@ -167,6 +170,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structft_1_1serv_1_1fast__dictionary.html">fast_dictionary</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structft_1_1serv_1_1dynamic__buffer.html">dynamic_buffer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structft_1_1serv_1_1unique__set.html">unique_set</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classft_1_1serv_1_1server__channel.html">server_channel</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,15 +193,33 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a1aa2c1656fd49d111e86ff4c147bc938"><td class="memItemLeft" align="right" valign="top">typedef unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft_1_1serv.html#a1aa2c1656fd49d111e86ff4c147bc938">byte_t</a></td></tr>
 <tr class="separator:a1aa2c1656fd49d111e86ff4c147bc938"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:af38b4d9a6e0f1da01d34a2273b0c8e61"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespaceft_1_1serv.html#af38b4d9a6e0f1da01d34a2273b0c8e61a14f10fbea8c6b1186330fdedb90bd3b0">USER_EVENT_WAKEUP</a>
+, <a class="el" href="namespaceft_1_1serv.html#af38b4d9a6e0f1da01d34a2273b0c8e61a9a196f26b75d6a5d0240d709670318aa">USER_EVENT_SHUTDOWN</a>
+, <a class="el" href="namespaceft_1_1serv.html#af38b4d9a6e0f1da01d34a2273b0c8e61a5e683b1bec5ac640b6d00a9aec8952bd">NUMBER_OF_USER_EVENT</a>
+ }</td></tr>
+<tr class="separator:af38b4d9a6e0f1da01d34a2273b0c8e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8ea5500bde828d4c21df0d6536cfa19c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft_1_1serv.html#a8ea5500bde828d4c21df0d6536cfa19c">_epoll_operation</a> (<a class="el" href="namespaceft_1_1serv.html#a2eb7f9f06f9ae2be0c715b7e66b50492">ident_t</a> epoll_fd, int epoll_operation, <a class="el" href="classft_1_1serv_1_1event__channel__base.html">event_channel_base</a> &amp;channel)  throw ()</td></tr>
 <tr class="separator:a8ea5500bde828d4c21df0d6536cfa19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8613d54693cac3632a272d8c04771b87"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft_1_1serv.html#a8613d54693cac3632a272d8c04771b87">_write_eventfd</a> (<a class="el" href="namespaceft_1_1serv.html#a2eb7f9f06f9ae2be0c715b7e66b50492">ident_t</a> event_ident, ::eventfd_t value)  throw ()</td></tr>
+<tr class="separator:a8613d54693cac3632a272d8c04771b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3712c359da9de2f8b3fd1b199a112ead"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft_1_1serv.html#a3712c359da9de2f8b3fd1b199a112ead">_kqueue_operation</a> (<a class="el" href="namespaceft_1_1serv.html#ac7a1cd16df4b5f07598697c84ead0f84">event_list</a> &amp;changes, int flags_add, int flags_del, <a class="el" href="classft_1_1serv_1_1event__channel__base.html">event_channel_base</a> &amp;channel)  throw ()</td></tr>
+<tr class="separator:a3712c359da9de2f8b3fd1b199a112ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a37f79cdf1af8a93c0e45163363c8c6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft_1_1serv.html#a0a37f79cdf1af8a93c0e45163363c8c6">_trigger_user_event</a> (<a class="el" href="namespaceft_1_1serv.html#a2eb7f9f06f9ae2be0c715b7e66b50492">ident_t</a> loop_ident, <a class="el" href="namespaceft_1_1serv.html#a2eb7f9f06f9ae2be0c715b7e66b50492">ident_t</a> target_ident)  throw ()</td></tr>
+<tr class="separator:a0a37f79cdf1af8a93c0e45163363c8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a0fe84f8852be2408536897bbd263e422"><td class="memItemLeft" align="right" valign="top">static const event_list::size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft_1_1serv.html#a0fe84f8852be2408536897bbd263e422">MAX_EVENTS</a> = <a class="el" href="serv__types_8hpp.html#abccdad8338267760ebf4137a9651a347">FT_SERV_MAX_EVENT_SIZE</a></td></tr>
 <tr class="separator:a0fe84f8852be2408536897bbd263e422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adad86be21f1f878590755bfaf4c01823"><td class="memItemLeft" align="right" valign="top">static const ::eventfd_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft_1_1serv.html#adad86be21f1f878590755bfaf4c01823">EVFD_NORMAL</a> = 1 &lt;&lt; 1</td></tr>
+<tr class="separator:adad86be21f1f878590755bfaf4c01823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b50b423374fcb8f34f9adebaf6b0247"><td class="memItemLeft" align="right" valign="top">static const ::eventfd_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft_1_1serv.html#a9b50b423374fcb8f34f9adebaf6b0247">EVFD_SHUTDOWN</a> = 1</td></tr>
+<tr class="separator:a9b50b423374fcb8f34f9adebaf6b0247"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fe84f8852be2408536897bbd263e422"><td class="memItemLeft" align="right" valign="top">static const event_list::size_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceft_1_1serv.html#a0fe84f8852be2408536897bbd263e422">MAX_EVENTS</a> = <a class="el" href="serv__types_8hpp.html#abccdad8338267760ebf4137a9651a347">FT_SERV_MAX_EVENT_SIZE</a></td></tr>
 <tr class="separator:a0fe84f8852be2408536897bbd263e422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -257,6 +280,26 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="af38b4d9a6e0f1da01d34a2273b0c8e61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af38b4d9a6e0f1da01d34a2273b0c8e61">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af38b4d9a6e0f1da01d34a2273b0c8e61a14f10fbea8c6b1186330fdedb90bd3b0"></a>USER_EVENT_WAKEUP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af38b4d9a6e0f1da01d34a2273b0c8e61a9a196f26b75d6a5d0240d709670318aa"></a>USER_EVENT_SHUTDOWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af38b4d9a6e0f1da01d34a2273b0c8e61a5e683b1bec5ac640b6d00a9aec8952bd"></a>NUMBER_OF_USER_EVENT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a8ea5500bde828d4c21df0d6536cfa19c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ea5500bde828d4c21df0d6536cfa19c">&#9670;&nbsp;</a></span>_epoll_operation()</h2>
@@ -312,7 +355,205 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a3712c359da9de2f8b3fd1b199a112ead"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3712c359da9de2f8b3fd1b199a112ead">&#9670;&nbsp;</a></span>_kqueue_operation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ft::serv::_kqueue_operation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceft_1_1serv.html#ac7a1cd16df4b5f07598697c84ead0f84">event_list</a> &amp;&#160;</td>
+          <td class="paramname"><em>changes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flags_add</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flags_del</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classft_1_1serv_1_1event__channel__base.html">event_channel_base</a> &amp;&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="serv__types_8hpp.html#a08bacfd35ec1e81ebfc1e66806187943">beginof</a>.</p>
+
+</div>
+</div>
+<a id="a0a37f79cdf1af8a93c0e45163363c8c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a37f79cdf1af8a93c0e45163363c8c6">&#9670;&nbsp;</a></span>_trigger_user_event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ft::serv::_trigger_user_event </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceft_1_1serv.html#a2eb7f9f06f9ae2be0c715b7e66b50492">ident_t</a>&#160;</td>
+          <td class="paramname"><em>loop_ident</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceft_1_1serv.html#a2eb7f9f06f9ae2be0c715b7e66b50492">ident_t</a>&#160;</td>
+          <td class="paramname"><em>target_ident</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="serv__types_8hpp.html#a08bacfd35ec1e81ebfc1e66806187943">beginof</a>, <a class="el" href="serv__types_8hpp.html#a39995f96172454526b43ebc17e293352">countof</a>, and <a class="el" href="classft_1_1serv_1_1syscall__failed.html#ad4beae2a2abdd5d44caf5f48b03a5ae0">ft::serv::syscall_failed::error()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceft_1_1serv_a0a37f79cdf1af8a93c0e45163363c8c6_cgraph.svg" width="346" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a8613d54693cac3632a272d8c04771b87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8613d54693cac3632a272d8c04771b87">&#9670;&nbsp;</a></span>_write_eventfd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ft::serv::_write_eventfd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceft_1_1serv.html#a2eb7f9f06f9ae2be0c715b7e66b50492">ident_t</a>&#160;</td>
+          <td class="paramname"><em>event_ident</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">::eventfd_t&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceft_1_1serv_a8613d54693cac3632a272d8c04771b87_icgraph.svg" width="603" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="adad86be21f1f878590755bfaf4c01823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adad86be21f1f878590755bfaf4c01823">&#9670;&nbsp;</a></span>EVFD_NORMAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const ::eventfd_t ft::serv::EVFD_NORMAL = 1 &lt;&lt; 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b50b423374fcb8f34f9adebaf6b0247"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b50b423374fcb8f34f9adebaf6b0247">&#9670;&nbsp;</a></span>EVFD_SHUTDOWN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const ::eventfd_t ft::serv::EVFD_SHUTDOWN = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0fe84f8852be2408536897bbd263e422"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0fe84f8852be2408536897bbd263e422">&#9670;&nbsp;</a></span>MAX_EVENTS <span class="overload">[1/2]</span></h2>
 

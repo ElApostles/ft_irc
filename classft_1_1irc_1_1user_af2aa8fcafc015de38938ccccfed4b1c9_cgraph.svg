@@ -48,7 +48,7 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 612;
 var viewHeight = 171;
-var sectionId = 'dynsection-5';
+var sectionId = 'dynsection-7';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
@@ -99,7 +99,7 @@ var sectionId = 'dynsection-5';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classft_1_1irc_1_1channel.html#a234b5979ee6b122dec7f2de82614c02a" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classft_1_1irc_1_1channel.html#aca8e1a04b4ef485056651f872172aa31" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167.5,-55 167.5,-74 312.5,-74 312.5,-55 167.5,-55"/>
 <text text-anchor="middle" x="240" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">ft::irc::channel::leave_user</text>
 </a>
@@ -129,17 +129,18 @@ var sectionId = 'dynsection-5';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classft_1_1irc_1_1user.html#af40c547a4bf5e10f4f4bb74936fe6d9e" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="359,-99 359,-118 475,-118 475,-99 359,-99"/>
-<text text-anchor="middle" x="417" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">ft::irc::user::get_nick</text>
+<g id="a_node5"><a xlink:href="structft_1_1irc_1_1make__reply.html#a0f6316e46b6733cefcdcada148b007fe" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="365,-98.5 365,-128.5 469,-128.5 469,-98.5 365,-98.5"/>
+<text text-anchor="start" x="373" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">ft::irc::make_reply</text>
+<text text-anchor="middle" x="417" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::create</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M278.97,-74.05C305.12,-80.62 340.05,-89.4 368.11,-96.46"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="367.55,-99.93 378.1,-98.97 369.26,-93.14 367.55,-99.93"/>
+<path fill="none" stroke="midnightblue" d="M280.07,-74.02C292.83,-77.23 307.05,-80.91 320,-84.5 332.31,-87.92 345.45,-91.76 357.94,-95.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="357.19,-98.93 367.78,-98.47 359.22,-92.23 357.19,-98.93"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">

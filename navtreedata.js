@@ -25,12 +25,11 @@
 var NAVTREE =
 [
   [ "ft_irc", "index.html", [
-    [ "Features", "index.html#autotoc_md1", null ],
-    [ "Usage", "index.html#autotoc_md2", [
-      [ "Bonus part", "index.html#autotoc_md3", null ]
+    [ "Features", "index.html#autotoc_md1", [
+      [ "Commands", "index.html#autotoc_md2", null ]
     ] ],
-    [ "OS support", "index.html#autotoc_md4", null ],
-    [ "Credits", "index.html#autotoc_md5", null ],
+    [ "OS support", "index.html#autotoc_md3", null ],
+    [ "Credits", "index.html#autotoc_md4", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -38,7 +37,8 @@ var NAVTREE =
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ]
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -59,6 +59,7 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
@@ -69,10 +70,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classft_1_1irc_1_1server.html#a7a7b03083500fa8c2c3008ff55e6eafb",
-"classft_1_1serv_1_1event__worker.html#a3c64a3a313e72702dbf5c8b30fa1ad9c",
-"namespaceft_1_1serv_1_1__internal.html",
-"structft_1_1serv_1_1__internal_1_1forward__reference_3_01volatile_01T_01_6_01_4.html"
+"classft_1_1irc_1_1processor__notice.html#adf9dd7adfd7a245fb010831175686c3e",
+"classft_1_1serv_1_1event__channel__base.html#ab1b58a6b6c4c232182a11969fb6af33e",
+"functions_func_b.html",
+"string__line__decoder_8hpp.html",
+"task__base_8hpp.html#a29f78388ae7583030bb1e4ae3e5c0edd"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

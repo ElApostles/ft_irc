@@ -10,6 +10,7 @@ var namespaceft_1_1serv =
     [ "event_layer", "classft_1_1serv_1_1event__layer.html", "classft_1_1serv_1_1event__layer" ],
     [ "event_worker", "classft_1_1serv_1_1event__worker.html", "classft_1_1serv_1_1event__worker" ],
     [ "event_worker_group", "classft_1_1serv_1_1event__worker__group.html", "classft_1_1serv_1_1event__worker__group" ],
+    [ "file_channel", "classft_1_1serv_1_1file__channel.html", "classft_1_1serv_1_1file__channel" ],
     [ "logger", "structft_1_1serv_1_1logger.html", "structft_1_1serv_1_1logger" ],
     [ "logic_adapter", "classft_1_1serv_1_1logic__adapter.html", "classft_1_1serv_1_1logic__adapter" ],
     [ "object_decoder", "classft_1_1serv_1_1object__decoder.html", "classft_1_1serv_1_1object__decoder" ],
@@ -20,6 +21,7 @@ var namespaceft_1_1serv =
     [ "dynamic_array", "structft_1_1serv_1_1dynamic__array.html", "structft_1_1serv_1_1dynamic__array" ],
     [ "fast_dictionary", "structft_1_1serv_1_1fast__dictionary.html", "structft_1_1serv_1_1fast__dictionary" ],
     [ "dynamic_buffer", "structft_1_1serv_1_1dynamic__buffer.html", "structft_1_1serv_1_1dynamic__buffer" ],
+    [ "unique_set", "structft_1_1serv_1_1unique__set.html", "structft_1_1serv_1_1unique__set" ],
     [ "server_channel", "classft_1_1serv_1_1server__channel.html", "classft_1_1serv_1_1server__channel" ],
     [ "socket_utils", "structft_1_1serv_1_1socket__utils.html", "structft_1_1serv_1_1socket__utils" ],
     [ "stream_channel", "classft_1_1serv_1_1stream__channel.html", "classft_1_1serv_1_1stream__channel" ],
@@ -29,6 +31,11 @@ var namespaceft_1_1serv =
     [ "event_list", "namespaceft_1_1serv.html#ac7a1cd16df4b5f07598697c84ead0f84", null ],
     [ "ident_t", "namespaceft_1_1serv.html#a2eb7f9f06f9ae2be0c715b7e66b50492", null ],
     [ "_epoll_operation", "namespaceft_1_1serv.html#a8ea5500bde828d4c21df0d6536cfa19c", null ],
+    [ "_kqueue_operation", "namespaceft_1_1serv.html#a3712c359da9de2f8b3fd1b199a112ead", null ],
+    [ "_trigger_user_event", "namespaceft_1_1serv.html#a0a37f79cdf1af8a93c0e45163363c8c6", null ],
+    [ "_write_eventfd", "namespaceft_1_1serv.html#a8613d54693cac3632a272d8c04771b87", null ],
+    [ "EVFD_NORMAL", "namespaceft_1_1serv.html#adad86be21f1f878590755bfaf4c01823", null ],
+    [ "EVFD_SHUTDOWN", "namespaceft_1_1serv.html#a9b50b423374fcb8f34f9adebaf6b0247", null ],
     [ "MAX_EVENTS", "namespaceft_1_1serv.html#a0fe84f8852be2408536897bbd263e422", null ],
     [ "MAX_EVENTS", "namespaceft_1_1serv.html#a0fe84f8852be2408536897bbd263e422", null ]
 ];
